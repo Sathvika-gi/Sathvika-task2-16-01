@@ -1,0 +1,75 @@
+/* Global styles to understand cascading */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+.header {
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+}
+
+/* Profile image box model */
+.profile-image {
+    margin: 15px 0;
+    padding: 5px;
+    border: 2px solid #ccc;
+}
+
+/* Navigation styling */
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+/* Main content wrapper */
+.main-content {
+    padding: 20px;
+}
+
+/* Reusable section box (Box Model demonstration) */
+.section-box {
+    background-color: #ffffff;
+    padding: 20px;        /* space inside the box */
+    margin-bottom: 20px; /* space outside the box */
+    border: 1px solid #ddd;
+}
+
+/* Headings hierarchy */
+h2 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+/* List spacing */
+ul {
+    padding-left: 20px;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #ddd;
+}
