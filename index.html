@@ -2,31 +2,30 @@
 <html lang="en">
 <head>
     <!-- The <head> contains metadata about the document.
-        It helps browsers understand character encoding and page information.-->
+         It helps browsers understand character encoding and page information. -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Profile | Sathvika A</title>
 
+    <!-- External CSS file linked for styling -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- <header> represents introductory content.
-        It usually contains the site heading, profile image, and navigation.-->
-    <header>
-        <h1>Sathvikaa</h1>
-        <p>IT Student | Front-End Developer | UI/UX Designer</p>
+    <!-- <header> represents introductory content -->
+    <header class="header">
+        <h1 class="name">Sathvika A</h1>
+        <p class="role">IT Student | Front-End Developer | UI/UX Designer</p>
 
         <!-- Profile image with placeholder -->
-        <!-- alt attribute improves accessibility for screen readers -->
         <img 
             src="profile.jpg" 
-            alt="Profile picture">
+            alt="Profile picture"
+            class="profile-image">
 
-        <!-- <nav> is used for navigation links.
-            These anchor links allow internal page navigation.-->
-        <nav>
+        <!-- <nav> is used for navigation links -->
+        <nav class="navigation">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#education">Education</a></li>
@@ -38,11 +37,11 @@
         </nav>
     </header>
 
-    <!-- <main> holds the primary content of the page.-->
-    <main>
+    <!-- <main> holds the primary content of the page -->
+    <main class="main-content">
 
         <!-- About Section -->
-        <section id="about">
+        <section id="about" class="section-box">
             <h2>About Me</h2>
             <p>
                 Passionate IT student with a strong foundation in Python and C,
@@ -53,20 +52,19 @@
         </section>
 
         <!-- Education Section -->
-        <section id="education">
+        <section id="education" class="section-box">
             <h2>Education</h2>
 
-            <!-- <article> is used for independent, self-contained content.-->
+            <!-- <article> is used for independent, self-contained content -->
             <article>
                 <h3>B.Tech – Information Technology</h3>
                 <p>Easwari Engineering College</p>
                 <p>2024 – Present</p>
-                
             </article>
         </section>
 
         <!-- Skills Section -->
-        <section id="skills">
+        <section id="skills" class="section-box">
             <h2>Skills</h2>
 
             <h3>Technical Skills</h3>
@@ -95,7 +93,7 @@
         </section>
 
         <!-- Projects and Achievements Section -->
-        <section id="projects">
+        <section id="projects" class="section-box">
             <h2>Projects & Achievements</h2>
 
             <article>
@@ -118,12 +116,12 @@
 
             <article>
                 <h3>Smart Procurement System</h3>
-                <p>Runner - Front-End Developer – Dev Arena Hackathon (June 2025)</p>
+                <p>Runner – Front-End Developer – Dev Arena Hackathon (June 2025)</p>
                 <ul>
                     <li>Full-stack AI procurement platform</li>
                     <li>Frontend development and UI design</li>
                     <li>Managed website layout and content</li>
-                    
+                </ul>
             </article>
 
             <article>
@@ -133,7 +131,7 @@
         </section>
 
         <!-- Certifications Section -->
-        <section id="certifications">
+        <section id="certifications" class="section-box">
             <h2>Certifications</h2>
             <ul>
                 <li>NPTEL – Privacy and Security in Online Social Media</li>
@@ -147,7 +145,7 @@
         </section>
 
         <!-- Contact Section -->
-        <section id="contact">
+        <section id="contact" class="section-box">
             <h2>Contact</h2>
             <p>Email: <a href="mailto:samplemail@gmail.com">samplemail@gmail.com</a></p>
             <p>Phone: 63833xxxxx</p>
@@ -157,9 +155,9 @@
 
     </main>
 
-    
-    <footer>
-        <p>2026 Sathvika A Task-1</p>
+    <!-- <footer> represents footer content -->
+    <footer class="footer">
+        <p>2026 Sathvika A | Task 1 & Task 2</p>
     </footer>
 
 </body>

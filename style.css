@@ -17,6 +17,8 @@ body {
 
 /* Profile image box model */
 .profile-image {
+    height: 30px;
+    width: 30px;
     margin: 15px 0;
     padding: 5px;
     border: 2px solid #ccc;
